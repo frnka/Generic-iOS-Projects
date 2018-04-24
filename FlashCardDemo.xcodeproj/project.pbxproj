@@ -14,6 +14,7 @@
 		C9694A19208FD2A00095A985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9694A17208FD2A00095A985 /* LaunchScreen.storyboard */; };
 		C9694A24208FD2A00095A985 /* FlashCardDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694A23208FD2A00095A985 /* FlashCardDemoTests.swift */; };
 		C9694A2F208FD2A00095A985 /* FlashCardDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694A2E208FD2A00095A985 /* FlashCardDemoUITests.swift */; };
+		C9694A3D208FD31C0095A985 /* MultiplicationFlashCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694A3C208FD31C0095A985 /* MultiplicationFlashCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C9694A2A208FD2A00095A985 /* FlashCardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9694A2E208FD2A00095A985 /* FlashCardDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardDemoUITests.swift; sourceTree = "<group>"; };
 		C9694A30208FD2A00095A985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9694A3C208FD31C0095A985 /* MultiplicationFlashCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationFlashCardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				C9694A0E208FD29F0095A985 /* AppDelegate.swift */,
+				C9694A3C208FD31C0095A985 /* MultiplicationFlashCardViewController.swift */,
 				C9694A10208FD29F0095A985 /* ViewController.swift */,
 				C9694A12208FD29F0095A985 /* Main.storyboard */,
 				C9694A15208FD2A00095A985 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				C9694A11208FD29F0095A985 /* ViewController.swift in Sources */,
 				C9694A0F208FD29F0095A985 /* AppDelegate.swift in Sources */,
+				C9694A3D208FD31C0095A985 /* MultiplicationFlashCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
