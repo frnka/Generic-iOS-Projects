@@ -1,1 +1,2 @@
-# Multiplication Flash Card Example 
+# Some basic Swift Examples
+-Multiplication Flash Card 
