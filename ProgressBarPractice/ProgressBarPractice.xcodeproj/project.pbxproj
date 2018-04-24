@@ -7,60 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C9694A0F208FD29F0095A985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694A0E208FD29F0095A985 /* AppDelegate.swift */; };
-		C9694A11208FD29F0095A985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694A10208FD29F0095A985 /* ViewController.swift */; };
-		C9694A14208FD29F0095A985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9694A12208FD29F0095A985 /* Main.storyboard */; };
-		C9694A16208FD2A00095A985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9694A15208FD2A00095A985 /* Assets.xcassets */; };
-		C9694A19208FD2A00095A985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9694A17208FD2A00095A985 /* LaunchScreen.storyboard */; };
-		C9694A3D208FD31C0095A985 /* MultiplicationFlashCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694A3C208FD31C0095A985 /* MultiplicationFlashCardViewController.swift */; };
+		C9694A4B208FDB3F0095A985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694A4A208FDB3F0095A985 /* AppDelegate.swift */; };
+		C9694A4D208FDB3F0095A985 /* PBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694A4C208FDB3F0095A985 /* PBViewController.swift */; };
+		C9694A50208FDB3F0095A985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9694A4E208FDB3F0095A985 /* Main.storyboard */; };
+		C9694A52208FDB400095A985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9694A51208FDB400095A985 /* Assets.xcassets */; };
+		C9694A55208FDB400095A985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9694A53208FDB400095A985 /* LaunchScreen.storyboard */; };
+		C9694A79208FDBB80095A985 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694A78208FDBB80095A985 /* ProgressBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C9694A20208FD2A00095A985 /* PBXContainerItemProxy */ = {
+		C9694A5C208FDB400095A985 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C9694A03208FD29F0095A985 /* Project object */;
+			containerPortal = C9694A3F208FDB3F0095A985 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C9694A0A208FD29F0095A985;
-			remoteInfo = FlashCardDemo;
+			remoteGlobalIDString = C9694A46208FDB3F0095A985;
+			remoteInfo = ProgressBarPractice;
 		};
-		C9694A2B208FD2A00095A985 /* PBXContainerItemProxy */ = {
+		C9694A67208FDB400095A985 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C9694A03208FD29F0095A985 /* Project object */;
+			containerPortal = C9694A3F208FDB3F0095A985 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C9694A0A208FD29F0095A985;
-			remoteInfo = FlashCardDemo;
+			remoteGlobalIDString = C9694A46208FDB3F0095A985;
+			remoteInfo = ProgressBarPractice;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C9694A0B208FD29F0095A985 /* FlashCardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9694A0E208FD29F0095A985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9694A10208FD29F0095A985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C9694A13208FD29F0095A985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C9694A15208FD2A00095A985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C9694A18208FD2A00095A985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C9694A1A208FD2A00095A985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9694A1F208FD2A00095A985 /* FlashCardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9694A2A208FD2A00095A985 /* FlashCardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9694A3C208FD31C0095A985 /* MultiplicationFlashCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationFlashCardViewController.swift; sourceTree = "<group>"; };
+		C9694A47208FDB3F0095A985 /* ProgressBarPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressBarPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9694A4A208FDB3F0095A985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9694A4C208FDB3F0095A985 /* PBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBViewController.swift; sourceTree = "<group>"; };
+		C9694A4F208FDB3F0095A985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9694A51208FDB400095A985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9694A54208FDB400095A985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9694A56208FDB400095A985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9694A5B208FDB400095A985 /* ProgressBarPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressBarPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9694A66208FDB400095A985 /* ProgressBarPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressBarPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9694A78208FDBB80095A985 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C9694A08208FD29F0095A985 /* Frameworks */ = {
+		C9694A44208FDB3F0095A985 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9694A1C208FD2A00095A985 /* Frameworks */ = {
+		C9694A58208FDB400095A985 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9694A27208FD2A00095A985 /* Frameworks */ = {
+		C9694A63208FDB400095A985 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,118 +70,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C9694A02208FD29F0095A985 = {
+		C9694A3E208FDB3F0095A985 = {
 			isa = PBXGroup;
 			children = (
-				C9694A0D208FD29F0095A985 /* FlashCardDemo */,
-				C9694A0C208FD29F0095A985 /* Products */,
+				C9694A49208FDB3F0095A985 /* ProgressBarPractice */,
+				C9694A48208FDB3F0095A985 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C9694A0C208FD29F0095A985 /* Products */ = {
+		C9694A48208FDB3F0095A985 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9694A0B208FD29F0095A985 /* FlashCardDemo.app */,
-				C9694A1F208FD2A00095A985 /* FlashCardDemoTests.xctest */,
-				C9694A2A208FD2A00095A985 /* FlashCardDemoUITests.xctest */,
+				C9694A47208FDB3F0095A985 /* ProgressBarPractice.app */,
+				C9694A5B208FDB400095A985 /* ProgressBarPracticeTests.xctest */,
+				C9694A66208FDB400095A985 /* ProgressBarPracticeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9694A0D208FD29F0095A985 /* FlashCardDemo */ = {
+		C9694A49208FDB3F0095A985 /* ProgressBarPractice */ = {
 			isa = PBXGroup;
 			children = (
-				C9694A0E208FD29F0095A985 /* AppDelegate.swift */,
-				C9694A3C208FD31C0095A985 /* MultiplicationFlashCardViewController.swift */,
-				C9694A10208FD29F0095A985 /* ViewController.swift */,
-				C9694A12208FD29F0095A985 /* Main.storyboard */,
-				C9694A15208FD2A00095A985 /* Assets.xcassets */,
-				C9694A17208FD2A00095A985 /* LaunchScreen.storyboard */,
-				C9694A1A208FD2A00095A985 /* Info.plist */,
+				C9694A4A208FDB3F0095A985 /* AppDelegate.swift */,
+				C9694A4C208FDB3F0095A985 /* PBViewController.swift */,
+				C9694A78208FDBB80095A985 /* ProgressBarView.swift */,
+				C9694A4E208FDB3F0095A985 /* Main.storyboard */,
+				C9694A51208FDB400095A985 /* Assets.xcassets */,
+				C9694A53208FDB400095A985 /* LaunchScreen.storyboard */,
+				C9694A56208FDB400095A985 /* Info.plist */,
 			);
-			path = FlashCardDemo;
+			path = ProgressBarPractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9694A0A208FD29F0095A985 /* FlashCardDemo */ = {
+		C9694A46208FDB3F0095A985 /* ProgressBarPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9694A33208FD2A00095A985 /* Build configuration list for PBXNativeTarget "FlashCardDemo" */;
+			buildConfigurationList = C9694A6F208FDB400095A985 /* Build configuration list for PBXNativeTarget "ProgressBarPractice" */;
 			buildPhases = (
-				C9694A07208FD29F0095A985 /* Sources */,
-				C9694A08208FD29F0095A985 /* Frameworks */,
-				C9694A09208FD29F0095A985 /* Resources */,
+				C9694A43208FDB3F0095A985 /* Sources */,
+				C9694A44208FDB3F0095A985 /* Frameworks */,
+				C9694A45208FDB3F0095A985 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FlashCardDemo;
-			productName = FlashCardDemo;
-			productReference = C9694A0B208FD29F0095A985 /* FlashCardDemo.app */;
+			name = ProgressBarPractice;
+			productName = ProgressBarPractice;
+			productReference = C9694A47208FDB3F0095A985 /* ProgressBarPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C9694A1E208FD2A00095A985 /* FlashCardDemoTests */ = {
+		C9694A5A208FDB400095A985 /* ProgressBarPracticeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9694A36208FD2A00095A985 /* Build configuration list for PBXNativeTarget "FlashCardDemoTests" */;
+			buildConfigurationList = C9694A72208FDB400095A985 /* Build configuration list for PBXNativeTarget "ProgressBarPracticeTests" */;
 			buildPhases = (
-				C9694A1B208FD2A00095A985 /* Sources */,
-				C9694A1C208FD2A00095A985 /* Frameworks */,
-				C9694A1D208FD2A00095A985 /* Resources */,
+				C9694A57208FDB400095A985 /* Sources */,
+				C9694A58208FDB400095A985 /* Frameworks */,
+				C9694A59208FDB400095A985 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C9694A21208FD2A00095A985 /* PBXTargetDependency */,
+				C9694A5D208FDB400095A985 /* PBXTargetDependency */,
 			);
-			name = FlashCardDemoTests;
-			productName = FlashCardDemoTests;
-			productReference = C9694A1F208FD2A00095A985 /* FlashCardDemoTests.xctest */;
+			name = ProgressBarPracticeTests;
+			productName = ProgressBarPracticeTests;
+			productReference = C9694A5B208FDB400095A985 /* ProgressBarPracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C9694A29208FD2A00095A985 /* FlashCardDemoUITests */ = {
+		C9694A65208FDB400095A985 /* ProgressBarPracticeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9694A39208FD2A00095A985 /* Build configuration list for PBXNativeTarget "FlashCardDemoUITests" */;
+			buildConfigurationList = C9694A75208FDB400095A985 /* Build configuration list for PBXNativeTarget "ProgressBarPracticeUITests" */;
 			buildPhases = (
-				C9694A26208FD2A00095A985 /* Sources */,
-				C9694A27208FD2A00095A985 /* Frameworks */,
-				C9694A28208FD2A00095A985 /* Resources */,
+				C9694A62208FDB400095A985 /* Sources */,
+				C9694A63208FDB400095A985 /* Frameworks */,
+				C9694A64208FDB400095A985 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C9694A2C208FD2A00095A985 /* PBXTargetDependency */,
+				C9694A68208FDB400095A985 /* PBXTargetDependency */,
 			);
-			name = FlashCardDemoUITests;
-			productName = FlashCardDemoUITests;
-			productReference = C9694A2A208FD2A00095A985 /* FlashCardDemoUITests.xctest */;
+			name = ProgressBarPracticeUITests;
+			productName = ProgressBarPracticeUITests;
+			productReference = C9694A66208FDB400095A985 /* ProgressBarPracticeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C9694A03208FD29F0095A985 /* Project object */ = {
+		C9694A3F208FDB3F0095A985 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Richard Frnka";
 				TargetAttributes = {
-					C9694A0A208FD29F0095A985 = {
+					C9694A46208FDB3F0095A985 = {
 						CreatedOnToolsVersion = 9.3;
 					};
-					C9694A1E208FD2A00095A985 = {
+					C9694A5A208FDB400095A985 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = C9694A0A208FD29F0095A985;
+						TestTargetID = C9694A46208FDB3F0095A985;
 					};
-					C9694A29208FD2A00095A985 = {
+					C9694A65208FDB400095A985 = {
 						CreatedOnToolsVersion = 9.3;
-						TestTargetID = C9694A0A208FD29F0095A985;
+						TestTargetID = C9694A46208FDB3F0095A985;
 					};
 				};
 			};
-			buildConfigurationList = C9694A06208FD29F0095A985 /* Build configuration list for PBXProject "FlashCardDemo" */;
+			buildConfigurationList = C9694A42208FDB3F0095A985 /* Build configuration list for PBXProject "ProgressBarPractice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -189,37 +189,37 @@
 				en,
 				Base,
 			);
-			mainGroup = C9694A02208FD29F0095A985;
-			productRefGroup = C9694A0C208FD29F0095A985 /* Products */;
+			mainGroup = C9694A3E208FDB3F0095A985;
+			productRefGroup = C9694A48208FDB3F0095A985 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9694A0A208FD29F0095A985 /* FlashCardDemo */,
-				C9694A1E208FD2A00095A985 /* FlashCardDemoTests */,
-				C9694A29208FD2A00095A985 /* FlashCardDemoUITests */,
+				C9694A46208FDB3F0095A985 /* ProgressBarPractice */,
+				C9694A5A208FDB400095A985 /* ProgressBarPracticeTests */,
+				C9694A65208FDB400095A985 /* ProgressBarPracticeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C9694A09208FD29F0095A985 /* Resources */ = {
+		C9694A45208FDB3F0095A985 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9694A19208FD2A00095A985 /* LaunchScreen.storyboard in Resources */,
-				C9694A16208FD2A00095A985 /* Assets.xcassets in Resources */,
-				C9694A14208FD29F0095A985 /* Main.storyboard in Resources */,
+				C9694A55208FDB400095A985 /* LaunchScreen.storyboard in Resources */,
+				C9694A52208FDB400095A985 /* Assets.xcassets in Resources */,
+				C9694A50208FDB3F0095A985 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9694A1D208FD2A00095A985 /* Resources */ = {
+		C9694A59208FDB400095A985 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9694A28208FD2A00095A985 /* Resources */ = {
+		C9694A64208FDB400095A985 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,24 +229,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C9694A07208FD29F0095A985 /* Sources */ = {
+		C9694A43208FDB3F0095A985 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9694A11208FD29F0095A985 /* ViewController.swift in Sources */,
-				C9694A0F208FD29F0095A985 /* AppDelegate.swift in Sources */,
-				C9694A3D208FD31C0095A985 /* MultiplicationFlashCardViewController.swift in Sources */,
+				C9694A4D208FDB3F0095A985 /* PBViewController.swift in Sources */,
+				C9694A79208FDBB80095A985 /* ProgressBarView.swift in Sources */,
+				C9694A4B208FDB3F0095A985 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9694A1B208FD2A00095A985 /* Sources */ = {
+		C9694A57208FDB400095A985 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9694A26208FD2A00095A985 /* Sources */ = {
+		C9694A62208FDB400095A985 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,31 +256,31 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C9694A21208FD2A00095A985 /* PBXTargetDependency */ = {
+		C9694A5D208FDB400095A985 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C9694A0A208FD29F0095A985 /* FlashCardDemo */;
-			targetProxy = C9694A20208FD2A00095A985 /* PBXContainerItemProxy */;
+			target = C9694A46208FDB3F0095A985 /* ProgressBarPractice */;
+			targetProxy = C9694A5C208FDB400095A985 /* PBXContainerItemProxy */;
 		};
-		C9694A2C208FD2A00095A985 /* PBXTargetDependency */ = {
+		C9694A68208FDB400095A985 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C9694A0A208FD29F0095A985 /* FlashCardDemo */;
-			targetProxy = C9694A2B208FD2A00095A985 /* PBXContainerItemProxy */;
+			target = C9694A46208FDB3F0095A985 /* ProgressBarPractice */;
+			targetProxy = C9694A67208FDB400095A985 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C9694A12208FD29F0095A985 /* Main.storyboard */ = {
+		C9694A4E208FDB3F0095A985 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C9694A13208FD29F0095A985 /* Base */,
+				C9694A4F208FDB3F0095A985 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C9694A17208FD2A00095A985 /* LaunchScreen.storyboard */ = {
+		C9694A53208FDB400095A985 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C9694A18208FD2A00095A985 /* Base */,
+				C9694A54208FDB400095A985 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -288,7 +288,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C9694A31208FD2A00095A985 /* Debug */ = {
+		C9694A6D208FDB400095A985 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -348,7 +348,7 @@
 			};
 			name = Debug;
 		};
-		C9694A32208FD2A00095A985 /* Release */ = {
+		C9694A6E208FDB400095A985 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -402,164 +402,164 @@
 			};
 			name = Release;
 		};
-		C9694A34208FD2A00095A985 /* Debug */ = {
+		C9694A70208FDB400095A985 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S95MMWUR5M;
-				INFOPLIST_FILE = FlashCardDemo/Info.plist;
+				INFOPLIST_FILE = ProgressBarPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.FlashCardDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.ProgressBarPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C9694A35208FD2A00095A985 /* Release */ = {
+		C9694A71208FDB400095A985 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S95MMWUR5M;
-				INFOPLIST_FILE = FlashCardDemo/Info.plist;
+				INFOPLIST_FILE = ProgressBarPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.FlashCardDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.ProgressBarPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		C9694A37208FD2A00095A985 /* Debug */ = {
+		C9694A73208FDB400095A985 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S95MMWUR5M;
-				INFOPLIST_FILE = FlashCardDemoTests/Info.plist;
+				INFOPLIST_FILE = ProgressBarPracticeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.FlashCardDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.ProgressBarPracticeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashCardDemo.app/FlashCardDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressBarPractice.app/ProgressBarPractice";
 			};
 			name = Debug;
 		};
-		C9694A38208FD2A00095A985 /* Release */ = {
+		C9694A74208FDB400095A985 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S95MMWUR5M;
-				INFOPLIST_FILE = FlashCardDemoTests/Info.plist;
+				INFOPLIST_FILE = ProgressBarPracticeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.FlashCardDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.ProgressBarPracticeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashCardDemo.app/FlashCardDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressBarPractice.app/ProgressBarPractice";
 			};
 			name = Release;
 		};
-		C9694A3A208FD2A00095A985 /* Debug */ = {
+		C9694A76208FDB400095A985 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S95MMWUR5M;
-				INFOPLIST_FILE = FlashCardDemoUITests/Info.plist;
+				INFOPLIST_FILE = ProgressBarPracticeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.FlashCardDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.ProgressBarPracticeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FlashCardDemo;
+				TEST_TARGET_NAME = ProgressBarPractice;
 			};
 			name = Debug;
 		};
-		C9694A3B208FD2A00095A985 /* Release */ = {
+		C9694A77208FDB400095A985 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S95MMWUR5M;
-				INFOPLIST_FILE = FlashCardDemoUITests/Info.plist;
+				INFOPLIST_FILE = ProgressBarPracticeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.FlashCardDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.ProgressBarPracticeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FlashCardDemo;
+				TEST_TARGET_NAME = ProgressBarPractice;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9694A06208FD29F0095A985 /* Build configuration list for PBXProject "FlashCardDemo" */ = {
+		C9694A42208FDB3F0095A985 /* Build configuration list for PBXProject "ProgressBarPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9694A31208FD2A00095A985 /* Debug */,
-				C9694A32208FD2A00095A985 /* Release */,
+				C9694A6D208FDB400095A985 /* Debug */,
+				C9694A6E208FDB400095A985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9694A33208FD2A00095A985 /* Build configuration list for PBXNativeTarget "FlashCardDemo" */ = {
+		C9694A6F208FDB400095A985 /* Build configuration list for PBXNativeTarget "ProgressBarPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9694A34208FD2A00095A985 /* Debug */,
-				C9694A35208FD2A00095A985 /* Release */,
+				C9694A70208FDB400095A985 /* Debug */,
+				C9694A71208FDB400095A985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9694A36208FD2A00095A985 /* Build configuration list for PBXNativeTarget "FlashCardDemoTests" */ = {
+		C9694A72208FDB400095A985 /* Build configuration list for PBXNativeTarget "ProgressBarPracticeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9694A37208FD2A00095A985 /* Debug */,
-				C9694A38208FD2A00095A985 /* Release */,
+				C9694A73208FDB400095A985 /* Debug */,
+				C9694A74208FDB400095A985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9694A39208FD2A00095A985 /* Build configuration list for PBXNativeTarget "FlashCardDemoUITests" */ = {
+		C9694A75208FDB400095A985 /* Build configuration list for PBXNativeTarget "ProgressBarPracticeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C9694A3A208FD2A00095A985 /* Debug */,
-				C9694A3B208FD2A00095A985 /* Release */,
+				C9694A76208FDB400095A985 /* Debug */,
+				C9694A77208FDB400095A985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C9694A03208FD29F0095A985 /* Project object */;
+	rootObject = C9694A3F208FDB3F0095A985 /* Project object */;
 }
