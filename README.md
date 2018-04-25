@@ -4,3 +4,5 @@
 
 -Progress Bar Practice: animated circular progress bar, and animated versions of the native Swift progress views
 
+-Buckets Animation Practice: My first animation project, filling other buckets with other buckets. Also programatically added all elements with no Storyboard involvement. 
+
