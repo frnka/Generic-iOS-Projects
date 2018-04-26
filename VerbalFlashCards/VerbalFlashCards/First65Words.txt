@@ -1,0 +1,66 @@
+index,word,definition
+1,acceptance,agreeing either expressly or by conduct to the act
+2,acknowledged,generally recognized; accepted; or admitted
+3,advanced, greatly developed beyond an initial stage
+4,affordable, to be able to bear the cost of
+5,aloofness, removed or distant either physically or emotionally
+6,altered, to make different without changing into something else
+7,anomalous, inconsistent with or deviating from what is usual
+8,antagonize, to incur or provoke the hostility of
+9,anticipated, to give advance thought; discussion; or treatment to
+10,applauded, to express approval of
+11,artistry, artistic quality of effect or workmanship
+12,aspersion, a misleading charge meant to harm someone's reputation
+13,belligerence, an aggressive attitude; atmosphere; or disposition
+14,bombastic, pretentious inflated speech or writing
+15,breakthrough, a sudden advance especially in knowledge or technique
+16,bureaucratization, a system characterized by specialization of functions
+17,candid, marked by honest sincere expression
+18, capricious, a sudden; impulsive; and unmotivated notion or action
+19, chance, a situation favoring some purpose
+20, chaotic, a state of utter confusion
+21, cheapened, to lower in general esteem
+22, concessions, to accept as true; valid; or accurate
+23, condition, the state of something; especially with regard to its appearance; quality; or working order
+24, contradicted, asserted the contrary of
+25, convincing, satisfying or assuring by argument or proof
+26, convoluted, very complicated and difficult to understand
+27, cowardice, lack of courage or resolution
+28, credence, mental acceptance as true or real
+29, crisis, the turning point for better or worse
+30, cryptic, having a hidden or ambiguous meaning
+31, currency, general use; acceptance; or prevalence
+32, deafening, very loud
+33, decorous, marked by propriety and good taste
+34, deficient, lacking in some necessary quality or element
+35, deliberate, to think about or discuss issues and decisions carefully
+36, denunciations, strong criticisms of someone or something
+37, derailed, to obstruct the progress of
+38, derivative, lacking originality
+39, despair, utter loss of hope
+40, diaphanous, has such fineness of texture as to permit seeing through
+41, dictum, a formal pronouncement of a principle; proposition; or opinion
+42, dilettante,  a person having a superficial interest in a branch of knowledge
+43, dispassionate, not affected by personal or emotional involvement
+44, disrepute, lack or decline of good reputation
+45, dominate, to exert a supreme determining or guiding influence
+46, dowager, a widow holding property or a title from her dead husband
+47, dubious, of doubtful promise or outcome
+48, egalitarian, a belief in human equality
+49, elliptical, marked by extreme obscurity of language
+50, emotional, dominated by; appealing to; or arousing emotion
+51, equivocate, to avoid committing oneself in what one says
+52, evolving, a process of change in a certain direction
+53, fictional, something invented by the imagination or feigned
+54, folly, criminally or tragically foolish actions or conduct
+55, foresight, an act of looking forward
+56, graceless, artistically inept or unbeautiful
+57, halted, to bring to a stop
+58, highlight, to center attention on
+59, hollow, an unfilled space
+60, hospitality, friendly treatment of visitors and guests
+61, iconoclast, person who attacks settled beliefs or institutions
+62, imprecise, not exact; vague
+63, improbable, unlikely to be true or to occur
+64, impulsive, acting momentarily or without forethought
+65, inaccessible, difficult or impossible to reach; approach; or understand
