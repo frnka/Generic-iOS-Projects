@@ -6,3 +6,5 @@
 
 -Buckets Animation Practice: My first animation project, filling other buckets with other buckets. Also programatically added all elements with no Storyboard involvement. 
 
+-Useful Swift Stuff Collection: Easily rounding corners and editing borders on buttons, images, and textFields. Making the background an image. Making the navBar clear. Handling keyboard problems when editing text fields. Quick pull-to-refresh element for tableViews. More to come.
+
