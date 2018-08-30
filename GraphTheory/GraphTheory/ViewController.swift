@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
     var v:Int?
     var e:Int?
+    var thePoints = [CGPoint]()
+    var theMatrix = [[Int]]()
     @IBOutlet weak var vert: UITextField!
     
     @IBOutlet weak var edge: UITextField!
@@ -42,13 +44,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.hideKeyboard()
+        //self.hideKeyboard()
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
         vert.delegate = self
         edge.delegate = self
-        v = 5
-        e = 6
+        v = 20
+        e = 100
         let w = self.view.frame.size.width
         let rad = 0.45*w
         let h = self.view.frame.size.height
@@ -75,7 +77,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             
             let theta = CGFloat(Double(i) * Double.pi * 2.0 / Double(v))
             let x = rad * cos(theta) + w/2
-            let y = rad * sin(theta) + w/2 + 20
+            let y = rad * sin(theta) + w/2 + 100
             let myPoint = CGPoint(x: x, y: y)
             points += [myPoint]
             
@@ -83,6 +85,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
         var sum = 0
         var myMatrix = initializeMatrix(v: v)
+        
         
         while sum < e{
             
@@ -104,6 +107,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }
         }
         print( myMatrix)
+        thePoints = points
         drawLines(mat: myMatrix, points: points)
         
         
@@ -191,23 +195,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
             }
         }
     }
-
-
-}
-extension UIViewController
-{
-    func hideKeyboard()
-    {
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(
-            target: self,
-            action: #selector(UIViewController.dismissKeyboard))
-        
-        view.addGestureRecognizer(tap)
-    }
     
-    @objc func dismissKeyboard()
-    {
-        view.endEditing(true)
-    }
-}
 
+}

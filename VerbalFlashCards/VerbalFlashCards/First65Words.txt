@@ -1,14 +1,14 @@
 index,word,definition
-1,acceptance,agreeing either expressly or by conduct to the act
-2,acknowledged,generally recognized; accepted; or admitted
-3,advanced, greatly developed beyond an initial stage
-4,affordable, to be able to bear the cost of
-5,aloofness, removed or distant either physically or emotionally
-6,altered, to make different without changing into something else
-7,anomalous, inconsistent with or deviating from what is usual
-8,antagonize, to incur or provoke the hostility of
-9,anticipated, to give advance thought; discussion; or treatment to
-10,applauded, to express approval of
+1, Acrophobia, fear of heights
+2, Bourgeois, middle class
+3, Debility, weakness; incapacity
+4, Epistolary, concerned with letters; through correspondence
+5, Hiatus, interruption; pause
+6, Languid, tired; slow
+7, Obscured, hidden; covered; buried
+8, Poised, calm; collected; self-possessed
+9, Resplendent,shining; glowing
+10, Therapeutic, medicinal; curative
 11,artistry, artistic quality of effect or workmanship
 12,aspersion, a misleading charge meant to harm someone's reputation
 13,belligerence, an aggressive attitude; atmosphere; or disposition
@@ -64,3 +64,13 @@ index,word,definition
 63, improbable, unlikely to be true or to occur
 64, impulsive, acting momentarily or without forethought
 65, inaccessible, difficult or impossible to reach; approach; or understand
+66, Acrid, sharp; pungent (used of smells and tastes)
+67, Boorish, ill-mannered
+68, Cynical, believing that people act only out of selfish motives
+69, Epistle, a letter (form of communication)
+70, Heresy, against orthodox opinion
+71, Lance, spear; spike; javelin
+72, Obscure, difficult to understand; partially hidden
+73, Poignant, deeply moving; strongly affecting the emotions
+74, Respite, a break; intermission
+75, Terse, concise; to the point

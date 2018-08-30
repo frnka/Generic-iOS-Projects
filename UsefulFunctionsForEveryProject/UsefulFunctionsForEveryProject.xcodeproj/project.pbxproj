@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C931CC962138794100E50DA9 /* DesignableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931CC952138794100E50DA9 /* DesignableViewController.swift */; };
+		C94544392138AA29000941F1 /* UserDefaultsTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94544382138AA29000941F1 /* UserDefaultsTemplateViewController.swift */; };
+		C945443B2138AA52000941F1 /* LocalImageStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945443A2138AA52000941F1 /* LocalImageStorageViewController.swift */; };
 		C9694AD920914C140095A985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694AD820914C140095A985 /* AppDelegate.swift */; };
 		C9694ADB20914C140095A985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694ADA20914C140095A985 /* ViewController.swift */; };
 		C9694ADE20914C140095A985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9694ADC20914C140095A985 /* Main.storyboard */; };
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C931CC942138790F00E50DA9 /* FirebaseSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSetupViewController.swift; sourceTree = "<group>"; };
+		C931CC952138794100E50DA9 /* DesignableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableViewController.swift; sourceTree = "<group>"; };
+		C94544382138AA29000941F1 /* UserDefaultsTemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsTemplateViewController.swift; sourceTree = "<group>"; };
+		C945443A2138AA52000941F1 /* LocalImageStorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalImageStorageViewController.swift; sourceTree = "<group>"; };
 		C9694AD520914C140095A985 /* UsefulFunctionsForEveryProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsefulFunctionsForEveryProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9694AD820914C140095A985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9694ADA20914C140095A985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +110,10 @@
 				C9694ADF20914C140095A985 /* Assets.xcassets */,
 				C9694AE120914C140095A985 /* LaunchScreen.storyboard */,
 				C9694AE420914C140095A985 /* Info.plist */,
+				C931CC942138790F00E50DA9 /* FirebaseSetupViewController.swift */,
+				C931CC952138794100E50DA9 /* DesignableViewController.swift */,
+				C94544382138AA29000941F1 /* UserDefaultsTemplateViewController.swift */,
+				C945443A2138AA52000941F1 /* LocalImageStorageViewController.swift */,
 			);
 			path = UsefulFunctionsForEveryProject;
 			sourceTree = "<group>";
@@ -257,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9694ADB20914C140095A985 /* ViewController.swift in Sources */,
+				C94544392138AA29000941F1 /* UserDefaultsTemplateViewController.swift in Sources */,
+				C931CC962138794100E50DA9 /* DesignableViewController.swift in Sources */,
 				C9694AD920914C140095A985 /* AppDelegate.swift in Sources */,
+				C945443B2138AA52000941F1 /* LocalImageStorageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

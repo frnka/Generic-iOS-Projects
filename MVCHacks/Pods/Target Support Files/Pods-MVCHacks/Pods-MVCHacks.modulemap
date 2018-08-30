@@ -1,0 +1,6 @@
+framework module Pods_MVCHacks {
+  umbrella header "Pods-MVCHacks-umbrella.h"
+
+  export *
+  module * { export * }
+}

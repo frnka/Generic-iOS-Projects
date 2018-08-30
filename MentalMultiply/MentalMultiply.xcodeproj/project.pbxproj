@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C944E2F020A61FAA00EA8FD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C944E2EF20A61FAA00EA8FD5 /* AppDelegate.swift */; };
+		C944E2F220A61FAA00EA8FD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C944E2F120A61FAA00EA8FD5 /* ViewController.swift */; };
+		C944E2F520A61FAA00EA8FD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C944E2F320A61FAA00EA8FD5 /* Main.storyboard */; };
+		C944E2F720A61FAB00EA8FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C944E2F620A61FAB00EA8FD5 /* Assets.xcassets */; };
+		C944E2FA20A61FAC00EA8FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C944E2F820A61FAC00EA8FD5 /* LaunchScreen.storyboard */; };
+		C944E30520A61FAC00EA8FD5 /* MentalMultiplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C944E30420A61FAC00EA8FD5 /* MentalMultiplyTests.swift */; };
+		C944E31020A61FAC00EA8FD5 /* MentalMultiplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C944E30F20A61FAC00EA8FD5 /* MentalMultiplyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C944E30120A61FAC00EA8FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C944E2E420A61FAA00EA8FD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C944E2EB20A61FAA00EA8FD5;
+			remoteInfo = MentalMultiply;
+		};
+		C944E30C20A61FAC00EA8FD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C944E2E420A61FAA00EA8FD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C944E2EB20A61FAA00EA8FD5;
+			remoteInfo = MentalMultiply;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C944E2EC20A61FAA00EA8FD5 /* MentalMultiply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalMultiply.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C944E2EF20A61FAA00EA8FD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C944E2F120A61FAA00EA8FD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C944E2F420A61FAA00EA8FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C944E2F620A61FAB00EA8FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C944E2F920A61FAC00EA8FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C944E2FB20A61FAC00EA8FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C944E30020A61FAC00EA8FD5 /* MentalMultiplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalMultiplyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C944E30420A61FAC00EA8FD5 /* MentalMultiplyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalMultiplyTests.swift; sourceTree = "<group>"; };
+		C944E30620A61FAC00EA8FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C944E30B20A61FAC00EA8FD5 /* MentalMultiplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalMultiplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C944E30F20A61FAC00EA8FD5 /* MentalMultiplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalMultiplyUITests.swift; sourceTree = "<group>"; };
+		C944E31120A61FAC00EA8FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C944E2E920A61FAA00EA8FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C944E2FD20A61FAC00EA8FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C944E30820A61FAC00EA8FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C944E2E320A61FAA00EA8FD5 = {
+			isa = PBXGroup;
+			children = (
+				C944E2EE20A61FAA00EA8FD5 /* MentalMultiply */,
+				C944E30320A61FAC00EA8FD5 /* MentalMultiplyTests */,
+				C944E30E20A61FAC00EA8FD5 /* MentalMultiplyUITests */,
+				C944E2ED20A61FAA00EA8FD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C944E2ED20A61FAA00EA8FD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C944E2EC20A61FAA00EA8FD5 /* MentalMultiply.app */,
+				C944E30020A61FAC00EA8FD5 /* MentalMultiplyTests.xctest */,
+				C944E30B20A61FAC00EA8FD5 /* MentalMultiplyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C944E2EE20A61FAA00EA8FD5 /* MentalMultiply */ = {
+			isa = PBXGroup;
+			children = (
+				C944E2EF20A61FAA00EA8FD5 /* AppDelegate.swift */,
+				C944E2F120A61FAA00EA8FD5 /* ViewController.swift */,
+				C944E2F320A61FAA00EA8FD5 /* Main.storyboard */,
+				C944E2F620A61FAB00EA8FD5 /* Assets.xcassets */,
+				C944E2F820A61FAC00EA8FD5 /* LaunchScreen.storyboard */,
+				C944E2FB20A61FAC00EA8FD5 /* Info.plist */,
+			);
+			path = MentalMultiply;
+			sourceTree = "<group>";
+		};
+		C944E30320A61FAC00EA8FD5 /* MentalMultiplyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C944E30420A61FAC00EA8FD5 /* MentalMultiplyTests.swift */,
+				C944E30620A61FAC00EA8FD5 /* Info.plist */,
+			);
+			path = MentalMultiplyTests;
+			sourceTree = "<group>";
+		};
+		C944E30E20A61FAC00EA8FD5 /* MentalMultiplyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C944E30F20A61FAC00EA8FD5 /* MentalMultiplyUITests.swift */,
+				C944E31120A61FAC00EA8FD5 /* Info.plist */,
+			);
+			path = MentalMultiplyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C944E2EB20A61FAA00EA8FD5 /* MentalMultiply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C944E31420A61FAC00EA8FD5 /* Build configuration list for PBXNativeTarget "MentalMultiply" */;
+			buildPhases = (
+				C944E2E820A61FAA00EA8FD5 /* Sources */,
+				C944E2E920A61FAA00EA8FD5 /* Frameworks */,
+				C944E2EA20A61FAA00EA8FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MentalMultiply;
+			productName = MentalMultiply;
+			productReference = C944E2EC20A61FAA00EA8FD5 /* MentalMultiply.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C944E2FF20A61FAC00EA8FD5 /* MentalMultiplyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C944E31720A61FAC00EA8FD5 /* Build configuration list for PBXNativeTarget "MentalMultiplyTests" */;
+			buildPhases = (
+				C944E2FC20A61FAC00EA8FD5 /* Sources */,
+				C944E2FD20A61FAC00EA8FD5 /* Frameworks */,
+				C944E2FE20A61FAC00EA8FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C944E30220A61FAC00EA8FD5 /* PBXTargetDependency */,
+			);
+			name = MentalMultiplyTests;
+			productName = MentalMultiplyTests;
+			productReference = C944E30020A61FAC00EA8FD5 /* MentalMultiplyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C944E30A20A61FAC00EA8FD5 /* MentalMultiplyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C944E31A20A61FAC00EA8FD5 /* Build configuration list for PBXNativeTarget "MentalMultiplyUITests" */;
+			buildPhases = (
+				C944E30720A61FAC00EA8FD5 /* Sources */,
+				C944E30820A61FAC00EA8FD5 /* Frameworks */,
+				C944E30920A61FAC00EA8FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C944E30D20A61FAC00EA8FD5 /* PBXTargetDependency */,
+			);
+			name = MentalMultiplyUITests;
+			productName = MentalMultiplyUITests;
+			productReference = C944E30B20A61FAC00EA8FD5 /* MentalMultiplyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C944E2E420A61FAA00EA8FD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Richard Frnka";
+				TargetAttributes = {
+					C944E2EB20A61FAA00EA8FD5 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					C944E2FF20A61FAC00EA8FD5 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = C944E2EB20A61FAA00EA8FD5;
+					};
+					C944E30A20A61FAC00EA8FD5 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = C944E2EB20A61FAA00EA8FD5;
+					};
+				};
+			};
+			buildConfigurationList = C944E2E720A61FAA00EA8FD5 /* Build configuration list for PBXProject "MentalMultiply" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C944E2E320A61FAA00EA8FD5;
+			productRefGroup = C944E2ED20A61FAA00EA8FD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C944E2EB20A61FAA00EA8FD5 /* MentalMultiply */,
+				C944E2FF20A61FAC00EA8FD5 /* MentalMultiplyTests */,
+				C944E30A20A61FAC00EA8FD5 /* MentalMultiplyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C944E2EA20A61FAA00EA8FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C944E2FA20A61FAC00EA8FD5 /* LaunchScreen.storyboard in Resources */,
+				C944E2F720A61FAB00EA8FD5 /* Assets.xcassets in Resources */,
+				C944E2F520A61FAA00EA8FD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C944E2FE20A61FAC00EA8FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C944E30920A61FAC00EA8FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C944E2E820A61FAA00EA8FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C944E2F220A61FAA00EA8FD5 /* ViewController.swift in Sources */,
+				C944E2F020A61FAA00EA8FD5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C944E2FC20A61FAC00EA8FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C944E30520A61FAC00EA8FD5 /* MentalMultiplyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C944E30720A61FAC00EA8FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C944E31020A61FAC00EA8FD5 /* MentalMultiplyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C944E30220A61FAC00EA8FD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C944E2EB20A61FAA00EA8FD5 /* MentalMultiply */;
+			targetProxy = C944E30120A61FAC00EA8FD5 /* PBXContainerItemProxy */;
+		};
+		C944E30D20A61FAC00EA8FD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C944E2EB20A61FAA00EA8FD5 /* MentalMultiply */;
+			targetProxy = C944E30C20A61FAC00EA8FD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C944E2F320A61FAA00EA8FD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C944E2F420A61FAA00EA8FD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C944E2F820A61FAC00EA8FD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C944E2F920A61FAC00EA8FD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C944E31220A61FAC00EA8FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C944E31320A61FAC00EA8FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C944E31520A61FAC00EA8FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S95MMWUR5M;
+				INFOPLIST_FILE = MentalMultiply/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.MentalMultiply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C944E31620A61FAC00EA8FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S95MMWUR5M;
+				INFOPLIST_FILE = MentalMultiply/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.MentalMultiply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C944E31820A61FAC00EA8FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S95MMWUR5M;
+				INFOPLIST_FILE = MentalMultiplyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.MentalMultiplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MentalMultiply.app/MentalMultiply";
+			};
+			name = Debug;
+		};
+		C944E31920A61FAC00EA8FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S95MMWUR5M;
+				INFOPLIST_FILE = MentalMultiplyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.MentalMultiplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MentalMultiply.app/MentalMultiply";
+			};
+			name = Release;
+		};
+		C944E31B20A61FAC00EA8FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S95MMWUR5M;
+				INFOPLIST_FILE = MentalMultiplyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.MentalMultiplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MentalMultiply;
+			};
+			name = Debug;
+		};
+		C944E31C20A61FAC00EA8FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S95MMWUR5M;
+				INFOPLIST_FILE = MentalMultiplyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cleversolve.MentalMultiplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MentalMultiply;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C944E2E720A61FAA00EA8FD5 /* Build configuration list for PBXProject "MentalMultiply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C944E31220A61FAC00EA8FD5 /* Debug */,
+				C944E31320A61FAC00EA8FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C944E31420A61FAC00EA8FD5 /* Build configuration list for PBXNativeTarget "MentalMultiply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C944E31520A61FAC00EA8FD5 /* Debug */,
+				C944E31620A61FAC00EA8FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C944E31720A61FAC00EA8FD5 /* Build configuration list for PBXNativeTarget "MentalMultiplyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C944E31820A61FAC00EA8FD5 /* Debug */,
+				C944E31920A61FAC00EA8FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C944E31A20A61FAC00EA8FD5 /* Build configuration list for PBXNativeTarget "MentalMultiplyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C944E31B20A61FAC00EA8FD5 /* Debug */,
+				C944E31C20A61FAC00EA8FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C944E2E420A61FAA00EA8FD5 /* Project object */;
+}

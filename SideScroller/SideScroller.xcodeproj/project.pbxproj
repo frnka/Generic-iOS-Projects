@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C90230CE21123BBB008542EA /* FullTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90230CD21123BBB008542EA /* FullTableViewCell.swift */; };
+		C90230D321124794008542EA /* OldMyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90230D221124794008542EA /* OldMyTableViewController.swift */; };
+		C90230D52112599D008542EA /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90230D42112599C008542EA /* DesignableView.swift */; };
+		C994BA392112360600964C86 /* SwipeAndShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994BA382112360600964C86 /* SwipeAndShareViewController.swift */; };
 		C9A6472220A0D93700388540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6472120A0D93700388540 /* AppDelegate.swift */; };
 		C9A6472420A0D93700388540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6472320A0D93700388540 /* ViewController.swift */; };
 		C9A6472720A0D93700388540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A6472520A0D93700388540 /* Main.storyboard */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C90230CD21123BBB008542EA /* FullTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTableViewCell.swift; sourceTree = "<group>"; };
+		C90230D221124794008542EA /* OldMyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldMyTableViewController.swift; sourceTree = "<group>"; };
+		C90230D42112599C008542EA /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		C994BA382112360600964C86 /* SwipeAndShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAndShareViewController.swift; sourceTree = "<group>"; };
 		C9A6471E20A0D93700388540 /* SideScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A6472120A0D93700388540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9A6472320A0D93700388540 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,8 +114,12 @@
 			isa = PBXGroup;
 			children = (
 				C9A6472120A0D93700388540 /* AppDelegate.swift */,
+				C90230CD21123BBB008542EA /* FullTableViewCell.swift */,
 				C9A6472320A0D93700388540 /* ViewController.swift */,
 				C9A6472520A0D93700388540 /* Main.storyboard */,
+				C90230D42112599C008542EA /* DesignableView.swift */,
+				C90230D221124794008542EA /* OldMyTableViewController.swift */,
+				C994BA382112360600964C86 /* SwipeAndShareViewController.swift */,
 				C9A6475520A0E72900388540 /* PictureTableViewCell.swift */,
 				C9A6475320A0E3B100388540 /* SecondaryTableViewCell.swift */,
 				C9A6474F20A0D95C00388540 /* MyTableViewController.swift */,
@@ -268,11 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90230D321124794008542EA /* OldMyTableViewController.swift in Sources */,
+				C90230CE21123BBB008542EA /* FullTableViewCell.swift in Sources */,
 				C9A6472420A0D93700388540 /* ViewController.swift in Sources */,
 				C9A6475220A0D96B00388540 /* MyTableViewCell.swift in Sources */,
 				C9A6475620A0E72900388540 /* PictureTableViewCell.swift in Sources */,
 				C9A6475420A0E3B100388540 /* SecondaryTableViewCell.swift in Sources */,
+				C994BA392112360600964C86 /* SwipeAndShareViewController.swift in Sources */,
 				C9A6475020A0D95C00388540 /* MyTableViewController.swift in Sources */,
+				C90230D52112599D008542EA /* DesignableView.swift in Sources */,
 				C9A6472220A0D93700388540 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

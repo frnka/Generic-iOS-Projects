@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gUM-0v-y16">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="m6p-ve-2SY">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -126,7 +126,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="QXJ-01-Rjy" firstAttribute="centerX" secondItem="eoV-yT-mNf" secondAttribute="centerX" id="Bmc-ej-Hc0"/>
                                     <constraint firstItem="QXJ-01-Rjy" firstAttribute="width" secondItem="eoV-yT-mNf" secondAttribute="width" multiplier="0.8" id="EKI-kt-Vxv"/>
@@ -135,15 +135,19 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIN-A8-PNn">
-                                <rect key="frame" x="164" y="561" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="156" y="561" width="62" height="30"/>
+                                <state key="normal" title="Flip Card">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="trigger:" destination="m6p-ve-2SY" eventType="touchUpInside" id="1DY-w0-j05"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOP-TA-yln">
                                 <rect key="frame" x="262" y="41" width="65" height="30"/>
-                                <state key="normal" title="NextCard"/>
+                                <state key="normal" title="NextCard">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="newCard:" destination="m6p-ve-2SY" eventType="touchUpInside" id="WuN-Z5-sOI"/>
                                 </connections>
@@ -164,6 +168,7 @@
                     </view>
                     <connections>
                         <outlet property="containerView" destination="eoV-yT-mNf" id="4CR-L3-R8r"/>
+                        <outlet property="flipButton" destination="wIN-A8-PNn" id="kum-ob-aIa"/>
                         <outlet property="myLabel" destination="QXJ-01-Rjy" id="YkU-kl-plV"/>
                     </connections>
                 </viewController>

@@ -19,7 +19,7 @@ class MyTableViewCell: UITableViewCell, UICollectionViewDataSource, UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let itemsPerRow = 4
+        let itemsPerRow = 1
         let hardCodedPadding = 5
         let itemWidth = (collectionView.bounds.width / CGFloat(itemsPerRow)) - CGFloat(hardCodedPadding)
         let itemHeight = collectionView.bounds.height - CGFloat(2 * hardCodedPadding)

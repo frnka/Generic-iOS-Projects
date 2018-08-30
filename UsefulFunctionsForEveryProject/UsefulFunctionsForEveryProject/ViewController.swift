@@ -9,8 +9,6 @@
 import UIKit
 import os.log
 class ViewController: UIViewController {
-
-  
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,11 +16,10 @@ class ViewController: UIViewController {
         clearNavBar()
         imageForTitle()
         slidingKeyboard()
+        dismissKeyboard()
         //self.tableView.addSubview(self.myRefresh)
-        
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -45,9 +42,7 @@ class ViewController: UIViewController {
         //self.tableView.reloadData()
         refreshControl.endRefreshing()
     }
-    
-    
-    
+ 
     func clearNavBar(){
         navigationController?.setNavigationBarHidden(false, animated: true)
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
@@ -68,6 +63,7 @@ class ViewController: UIViewController {
         view.addSubview(imageView)
         self.view.sendSubview(toBack: imageView)
     }
+    
     func imageForTitle(){
         let logo = UIImage(named: "logo")
         let imageView = UIImageView(image:logo)
@@ -79,6 +75,7 @@ class ViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
     }
+    
     @objc func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
             if self.view.frame.origin.y == 0{
@@ -123,46 +120,6 @@ extension UIViewController
         view.endEditing(true)
     }
 }
-extension CALayer {
-    var borderUIColor: UIColor {
-        set {
-            self.borderColor = newValue.cgColor
-        }
-        
-        get {
-            return UIColor(cgColor: self.borderColor!)
-        }
-    }
-}
-extension UIView {
-    
-    @IBInspectable var cornerRadius: CGFloat {
-        get {
-            return layer.cornerRadius
-        }
-        set {
-            layer.cornerRadius = newValue
-            layer.masksToBounds = newValue > 0
-        }
-    }
-    
-    @IBInspectable var borderWidth: CGFloat {
-        get {
-            return layer.borderWidth
-        }
-        set {
-            layer.borderWidth = newValue
-        }
-    }
-    
-    @IBInspectable var borderColor: UIColor? {
-        get {
-            return UIColor(cgColor: layer.borderColor!)
-        }
-        set {
-            layer.borderColor = newValue?.cgColor
-        }
-    }
-}
+
 
 
