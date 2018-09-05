@@ -44,13 +44,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.hideKeyboard()
+        self.hideKeyboard()
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
         vert.delegate = self
         edge.delegate = self
-        v = 20
-        e = 100
+        v = 3
+        e = 6
+        vert.text = "\(v!)"
+        edge.text = "\(e!)"
         let w = self.view.frame.size.width
         let rad = 0.45*w
         let h = self.view.frame.size.height
@@ -198,3 +200,20 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
 
 }
+extension UIViewController
+{
+    func hideKeyboard()
+    {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(
+            target: self,
+            action: #selector(UIViewController.dismissKeyboard))
+        
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard()
+    {
+        view.endEditing(true)
+    }
+}
+

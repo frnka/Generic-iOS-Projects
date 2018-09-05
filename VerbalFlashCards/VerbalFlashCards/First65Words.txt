@@ -9,68 +9,93 @@ index,word,definition
 8, Poised, calm; collected; self-possessed
 9, Resplendent,shining; glowing
 10, Therapeutic, medicinal; curative
-11,artistry, artistic quality of effect or workmanship
-12,aspersion, a misleading charge meant to harm someone's reputation
-13,belligerence, an aggressive attitude; atmosphere; or disposition
-14,bombastic, pretentious inflated speech or writing
-15,breakthrough, a sudden advance especially in knowledge or technique
-16,bureaucratization, a system characterized by specialization of functions
-17,candid, marked by honest sincere expression
-18, capricious, a sudden; impulsive; and unmotivated notion or action
-19, chance, a situation favoring some purpose
-20, chaotic, a state of utter confusion
-21, cheapened, to lower in general esteem
-22, concessions, to accept as true; valid; or accurate
-23, condition, the state of something; especially with regard to its appearance; quality; or working order
-24, contradicted, asserted the contrary of
-25, convincing, satisfying or assuring by argument or proof
-26, convoluted, very complicated and difficult to understand
-27, cowardice, lack of courage or resolution
-28, credence, mental acceptance as true or real
-29, crisis, the turning point for better or worse
-30, cryptic, having a hidden or ambiguous meaning
-31, currency, general use; acceptance; or prevalence
-32, deafening, very loud
-33, decorous, marked by propriety and good taste
-34, deficient, lacking in some necessary quality or element
-35, deliberate, to think about or discuss issues and decisions carefully
-36, denunciations, strong criticisms of someone or something
-37, derailed, to obstruct the progress of
-38, derivative, lacking originality
-39, despair, utter loss of hope
-40, diaphanous, has such fineness of texture as to permit seeing through
-41, dictum, a formal pronouncement of a principle; proposition; or opinion
-42, dilettante,  a person having a superficial interest in a branch of knowledge
-43, dispassionate, not affected by personal or emotional involvement
-44, disrepute, lack or decline of good reputation
-45, dominate, to exert a supreme determining or guiding influence
-46, dowager, a widow holding property or a title from her dead husband
-47, dubious, of doubtful promise or outcome
-48, egalitarian, a belief in human equality
-49, elliptical, marked by extreme obscurity of language
-50, emotional, dominated by; appealing to; or arousing emotion
-51, equivocate, to avoid committing oneself in what one says
-52, evolving, a process of change in a certain direction
-53, fictional, something invented by the imagination or feigned
-54, folly, criminally or tragically foolish actions or conduct
-55, foresight, an act of looking forward
-56, graceless, artistically inept or unbeautiful
-57, halted, to bring to a stop
-58, highlight, to center attention on
-59, hollow, an unfilled space
-60, hospitality, friendly treatment of visitors and guests
-61, iconoclast, person who attacks settled beliefs or institutions
-62, imprecise, not exact; vague
-63, improbable, unlikely to be true or to occur
-64, impulsive, acting momentarily or without forethought
-65, inaccessible, difficult or impossible to reach; approach; or understand
-66, Acrid, sharp; pungent (used of smells and tastes)
-67, Boorish, ill-mannered
-68, Cynical, believing that people act only out of selfish motives
-69, Epistle, a letter (form of communication)
+11, Acuity, sharpness (mental or visual)
+12, Braggart, someone who boasts
+13,Debunking,    exposing false claims or myths
+14,Epitomized,    typified; characterized; personified
+15,Hidebound ,   rigid in opinions
+16,Languish ,   decay; fade away; get weaker
+17,Obsequious,    servile; submissive
+18,Polemical   , causing debate or argument
+19,Restorative  ,  a tonic
+20,Thwart ,   prevent; frustrate
+21,Adamant   , forceful; inflexible
+22,Brawny  ,  muscular
+23,Decathlon ,   an athletic competition with ten events
+24,Equivocate  ,  speak ambiguously; avoid telling the truth
+25,Hieroglyphics,    1. picture writing; 2. writing which is difficult to read or enigmatic
+26,Larceny  ,  theft; robbery; stealing
+27,Obsession ,   a dominating concern
+28,Ponderous  ,  weighty; slow and heavy
+29,Retention  ,  preservation; withholding
+30,Timorous  ,  cowardly; fearful
+31,Adroit  ,  skilful / skillful
+32,Brevity ,   being brief
+33,Decorum   , dignified, correct behavior [decorous (a)]
+34,Err   , make a mistake
+35,Hinder ,   obstruct
+36,Largess ,   generosity
+37,Obsolete,    no longer valid
+38,Pontificate,    speak pompously or dogmatically
+39,Reticent  ,  restrained; holding something back; uncommunicative
+40,Tirade  ,  stream of verbal abuse
+41,Adulation  ,  strong admiration; worship
+42,Bristle ,   to show irritation
+43,Decoy  ,  lure; trap; trick
+44,Erratic  ,  wandering; irregular
+45,Histrionic   , theatrical; exaggerated
+46,Laud  ,  praise
+47,Obstreperous  ,  noisy and boisterous
+48,Portend   , foretell
+49,Retraction  ,  withdrawal; cancellation of a statement
+50,Titter  ,  giggle quietly
+51,Adversity,    hardship
+52,Broach   , start to discuss; approach
+53,Deference  ,  respect
+54,Esoteric ,   obscure and difficult to understand
+55,Hoary  ,  old
+56,Lavish   , on a grand scale; wasteful
+57,Obtuse  ,  mentally dull
+58,Portent ,   a warning sign; omen
+59,Revere  ,  worship
+60,Tome  ,  large book
+61,Advocate  ,  support
+62,Brusque   , blunt; abrupt
+63,Defoliate  ,  cause leaves to fall off
+64,Espouse  ,  promote; take up; support
+65,Hone  ,  sharpen; increase; whet
+66,Lax  ,  careless; not strict
+67,Obviate  ,  avoid; make unnecessary
+68,Poseur  ,  someone who puts on an act
+69,Riddled  ,  full of (usually full of holes)
 70, Heresy, against orthodox opinion
 71, Lance, spear; spike; javelin
 72, Obscure, difficult to understand; partially hidden
 73, Poignant, deeply moving; strongly affecting the emotions
 74, Respite, a break; intermission
 75, Terse, concise; to the point
+76,Torpid ,   inactive; lazy; stagnant
+77,Aesthetic  ,  concerning art or beauty
+78,Bulwark  ,  fortification; barricade; wall
+79,Defunct  ,  no longer in existence
+80,Etymology   , the study of word origins
+81,Hyperbole ,   grossly exaggerated speech
+82,Legend  ,  1. key to map; 2. myth or story
+83,Odious ,   hateful
+84,Posterity   , future generations
+85,Rife  ,  common
+86,Torpor  ,  dormancy; sluggishness; inactivity
+87,Affable  ,  friendly; social; easygoing
+88,Bureaucracy  ,  officialdom
+89,Degradation    ,deprivation; poverty; debasement
+90,Eulogy,    praise
+91,Hypochondriac  ,  a person obsessed with health; having imaginary illnesses
+92,Legion   , in large numbers
+93,Officious ,   domineering; intrusive; meddlesome
+94,Posthumous ,   after death
+95,Rigor  ,  thoroughness
+96,Totter   , walk unsteadily
+97,Acrid  ,  sharp; pungent (used of smells and tastes)
+98,Boorish   , ill-mannered
+99,Cynical  ,  believing that people act only out of selfish motives
+100,Epistle  ,  a letter (form of communication)

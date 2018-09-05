@@ -16,6 +16,7 @@
 		C931CC932138788E00E50DA9 /* FlipAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C931CC922138788E00E50DA9 /* FlipAnimationViewController.swift */; };
 		C943912F20B5E3DA0073281F /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943912E20B5E3DA0073281F /* MyCollectionViewController.swift */; };
 		C943913120B5E5450073281F /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C943913020B5E5450073281F /* ProfileCollectionViewCell.swift */; };
+		C945444321403DBB000941F1 /* VerticalScrollAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945444221403DBB000941F1 /* VerticalScrollAnimationViewController.swift */; };
 		C994BA29210A51B900964C86 /* UserDefaultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994BA28210A51B900964C86 /* UserDefaultsViewController.swift */; };
 		C994BA2D210A765B00964C86 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994BA2C210A765B00964C86 /* DesignableView.swift */; };
 		C994BA3521112E7A00964C86 /* CardAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994BA3421112E7A00964C86 /* CardAnimationViewController.swift */; };
@@ -57,6 +58,7 @@
 		C931CC922138788E00E50DA9 /* FlipAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipAnimationViewController.swift; sourceTree = "<group>"; };
 		C943912E20B5E3DA0073281F /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
 		C943913020B5E5450073281F /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		C945444221403DBB000941F1 /* VerticalScrollAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollAnimationViewController.swift; sourceTree = "<group>"; };
 		C994BA28210A51B900964C86 /* UserDefaultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsViewController.swift; sourceTree = "<group>"; };
 		C994BA2C210A765B00964C86 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		C994BA3421112E7A00964C86 /* CardAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAnimationViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,26 @@
 			path = TabNavBarHacks;
 			sourceTree = "<group>";
 		};
+		C945444421405A79000941F1 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C994BA3421112E7A00964C86 /* CardAnimationViewController.swift */,
+				C931CC922138788E00E50DA9 /* FlipAnimationViewController.swift */,
+				C945444221403DBB000941F1 /* VerticalScrollAnimationViewController.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		C945444521405A9E000941F1 /* Unconnected */ = {
+			isa = PBXGroup;
+			children = (
+				C994BA28210A51B900964C86 /* UserDefaultsViewController.swift */,
+				C9126DB920AB6DE4007A64DC /* ImageStorageViewController.swift */,
+				C9DFE9DC212B65FD00906373 /* FirebaseHacksViewController.swift */,
+			);
+			path = Unconnected;
+			sourceTree = "<group>";
+		};
 		C9A6476820A2A2F900388540 = {
 			isa = PBXGroup;
 			children = (
@@ -141,22 +163,19 @@
 		C9A6477320A2A2F900388540 /* MVCHacks */ = {
 			isa = PBXGroup;
 			children = (
+				C9A6477820A2A2F900388540 /* Main.storyboard */,
+				C945444521405A9E000941F1 /* Unconnected */,
+				C945444421405A79000941F1 /* Animations */,
 				C9A6477420A2A2F900388540 /* AppDelegate.swift */,
 				C9A6477620A2A2F900388540 /* ViewController.swift */,
 				C994BA2C210A765B00964C86 /* DesignableView.swift */,
-				C943912E20B5E3DA0073281F /* MyCollectionViewController.swift */,
 				C931380120FD573F00131F5B /* DatePickerViewController.swift */,
-				C994BA28210A51B900964C86 /* UserDefaultsViewController.swift */,
-				C9A6477820A2A2F900388540 /* Main.storyboard */,
-				C994BA3421112E7A00964C86 /* CardAnimationViewController.swift */,
-				C9126DB920AB6DE4007A64DC /* ImageStorageViewController.swift */,
+				C943912E20B5E3DA0073281F /* MyCollectionViewController.swift */,
 				C943913020B5E5450073281F /* ProfileCollectionViewCell.swift */,
 				C9126DBB20AB73F1007A64DC /* TabNavBarHacks */,
 				C9A6477B20A2A2FA00388540 /* Assets.xcassets */,
 				C9A6477D20A2A2FA00388540 /* LaunchScreen.storyboard */,
 				C9A6478020A2A2FA00388540 /* Info.plist */,
-				C9DFE9DC212B65FD00906373 /* FirebaseHacksViewController.swift */,
-				C931CC922138788E00E50DA9 /* FlipAnimationViewController.swift */,
 			);
 			path = MVCHacks;
 			sourceTree = "<group>";
@@ -342,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C945444321403DBB000941F1 /* VerticalScrollAnimationViewController.swift in Sources */,
 				C9126DC120AB7D7A007A64DC /* SecondViewController.swift in Sources */,
 				C9126DBD20AB7417007A64DC /* MyTabBarController.swift in Sources */,
 				C931380220FD573F00131F5B /* DatePickerViewController.swift in Sources */,

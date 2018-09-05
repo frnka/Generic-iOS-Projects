@@ -38,7 +38,7 @@ class ThirdViewController: UIViewController {
                 myLabel.textAlignment = .right
                 //holderView.addSubview(containerView)
             }
-            UIView.transition(with: containerView, duration: 2, options: .transitionFlipFromRight, animations: nil, completion: nil)
+            UIView.transition(with: containerView, duration: 1, options: .transitionFlipFromRight, animations: nil, completion: nil)
         }
         else {
             
@@ -50,7 +50,7 @@ class ThirdViewController: UIViewController {
                 flipButton.titleLabel?.text = "See Definition"
                 myLabel.textAlignment = .center
                 //holderView.addSubview(containerView)
-                UIView.transition(with: containerView, duration: 2, options: .transitionFlipFromRight, animations: nil, completion: nil)
+                UIView.transition(with: containerView, duration: 1, options: .transitionFlipFromRight, animations: nil, completion: nil)
             }
             
         }

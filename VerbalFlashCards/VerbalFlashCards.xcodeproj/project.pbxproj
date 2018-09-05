@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C945443D2138AB5A000941F1 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C945443C2138AB5A000941F1 /* DesignableView.swift */; };
 		C9694B13209254840095A985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694B12209254840095A985 /* AppDelegate.swift */; };
 		C9694B15209254840095A985 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9694B14209254840095A985 /* ViewController.swift */; };
 		C9694B18209254840095A985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9694B16209254840095A985 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C945443C2138AB5A000941F1 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		C9694B0F209254840095A985 /* VerbalFlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerbalFlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9694B12209254840095A985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9694B14209254840095A985 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				C9694B19209254850095A985 /* Assets.xcassets */,
 				C9694B1B209254850095A985 /* LaunchScreen.storyboard */,
 				C9694B1E209254850095A985 /* Info.plist */,
+				C945443C2138AB5A000941F1 /* DesignableView.swift */,
 			);
 			path = VerbalFlashCards;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				C9694B4320927C890095A985 /* SecondViewController.swift in Sources */,
 				C9694B15209254840095A985 /* ViewController.swift in Sources */,
 				C9694B4720927ECB0095A985 /* ThirdViewController.swift in Sources */,
+				C945443D2138AB5A000941F1 /* DesignableView.swift in Sources */,
 				C9694B13209254840095A985 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
