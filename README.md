@@ -1,4 +1,6 @@
-# Some Quick, Fun Swift Examples
+# Generic Swift Projects
+
+-MVC Hacks: Has a couple of animations, a Date Picker example, CollectionView Example, and some other things.
 
 -Multiplication Flash Card: generates infinitely many 2-digit by 2-digit multiplication problems
 
@@ -12,4 +14,4 @@
 
 -Side Scroller: Experimenting with another level of Table View with multiple dynamic prototype cells. Utilizes the CollectionView embedded in the tableViewCell tutorial from https://github.com/ThornTechPublic. Just a quick test before implementing it in a live project. Basic elements of "Swipe and Share" are in the second tableView controller if you can find it.
 
--MVC Hacks: Has a couple of animations, a Date Picker example, CollectionView Example, and some other things.
+
