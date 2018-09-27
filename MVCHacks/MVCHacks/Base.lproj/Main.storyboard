@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YoP-RQ-Vvz">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YoP-RQ-Vvz">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,11 +20,11 @@
             <objects>
                 <viewController id="CCG-Wd-C0P" customClass="SecondViewController" customModule="MVCHacks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vS6-MD-Vmy">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Tab" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Me9-bf-iv0">
-                                <rect key="frame" x="142" y="99" width="91" height="21"/>
+                                <rect key="frame" x="114.5" y="99" width="91" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -53,11 +51,11 @@
             <objects>
                 <viewController id="Ga4-Ya-epY" customClass="DatePickerViewController" customModule="MVCHacks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KOR-51-NxJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date Picker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nei-M1-cYJ">
-                                <rect key="frame" x="143" y="108" width="88" height="21"/>
+                                <rect key="frame" x="116" y="108" width="88" height="21"/>
                                 <color key="backgroundColor" white="0.896484375" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -70,7 +68,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Date/Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CcI-tM-hwg">
-                                <rect key="frame" x="94" y="175" width="122" height="21"/>
+                                <rect key="frame" x="80" y="175" width="122" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -82,7 +80,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End Date/Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vwd-Xo-V1c">
-                                <rect key="frame" x="94" y="264" width="113" height="21"/>
+                                <rect key="frame" x="80" y="264" width="113" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -120,7 +118,7 @@
             <objects>
                 <collectionViewController id="HYy-W1-hvr" customClass="MyCollectionViewController" customModule="MVCHacks" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="eWM-JZ-TSY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Ces-kb-G8c">
@@ -156,7 +154,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_male" translatesAutoresizingMaskIntoConstraints="NO" id="89T-Ud-kQG">
-                                            <rect key="frame" x="53" y="5" width="45" height="45"/>
+                                            <rect key="frame" x="52.5" y="5" width="45" height="45"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="45" id="2A4-ZA-wMC"/>
                                                 <constraint firstAttribute="width" secondItem="89T-Ud-kQG" secondAttribute="height" id="bEF-Pb-SA9"/>
@@ -201,18 +199,18 @@
             <objects>
                 <viewController id="NUp-Wa-0oH" customClass="ThirdViewController" customModule="MVCHacks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1DE-ra-xU2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9v-d2-0S6">
-                                <rect key="frame" x="117" y="243" width="141" height="30"/>
+                                <rect key="frame" x="89.5" y="243" width="141" height="30"/>
                                 <state key="normal" title="Trigger Second Tab?"/>
                                 <connections>
                                     <action selector="goToSecond:" destination="NUp-Wa-0oH" eventType="touchUpInside" id="Ry9-Lw-POW"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third Tab" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fp2-8L-PaY">
-                                <rect key="frame" x="151.5" y="123" width="72" height="21"/>
+                                <rect key="frame" x="124" y="123" width="72" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -238,11 +236,11 @@
             <objects>
                 <viewController title="Hover Motion" id="I7n-rZ-vlD" customClass="CardAnimationViewController" customModule="MVCHacks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q1J-4J-ZtT">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QuickCard" translatesAutoresizingMaskIntoConstraints="NO" id="rRK-Q2-3IH">
-                                <rect key="frame" x="56" y="128.5" width="262.5" height="425"/>
+                                <rect key="frame" x="48" y="110.5" width="224" height="362"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="rRK-Q2-3IH" secondAttribute="height" multiplier="1:1.61803" id="qnq-CH-fWk"/>
                                 </constraints>
@@ -270,7 +268,7 @@
             <objects>
                 <viewController id="haO-p1-S58" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bVv-nC-JRO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cfJ-CA-B2u"/>
@@ -286,11 +284,11 @@
             <objects>
                 <viewController id="TL2-MB-ze5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X3w-wB-Fbk" customClass="DesignableView" customModule="MVCHacks" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DNh-ps-OUN" customClass="DesignableView" customModule="MVCHacks" customModuleProvider="target">
-                                <rect key="frame" x="67" y="52" width="240" height="128"/>
+                                <rect key="frame" x="40" y="52" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="Nxq-KQ-Pii"/>
@@ -372,7 +370,7 @@
             <objects>
                 <navigationController id="qWb-rM-vTR" customClass="UISideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bwM-wr-QK7">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <userDefinedRuntimeAttributes>
@@ -394,14 +392,14 @@
             <objects>
                 <viewController id="7wW-Sx-odn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iep-fW-9Hg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6AR-0k-Nm4">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcS-Fa-mnX">
-                                        <rect key="frame" x="166" y="10" width="42" height="21"/>
+                                        <rect key="frame" x="139" y="10" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -433,14 +431,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zui-Ug-Rgd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-996" y="-1227.4362818590705"/>
+            <point key="canvasLocation" x="-2417" y="-1610"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5fx-Fh-B7n">
             <objects>
                 <viewController id="Mcc-Zm-SGO" customClass="ViewController" customModule="MVCHacks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v7u-ms-cma">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaT-Rn-kdd">
@@ -515,7 +513,7 @@
                                 <state key="normal" image="clock"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tj3-Aw-shP">
-                                <rect key="frame" x="72" y="485" width="73" height="29"/>
+                                <rect key="frame" x="72" y="484.5" width="71" height="29"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                 <state key="normal" title="Date Picker">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -525,7 +523,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JpZ-zg-eQ8">
-                                <rect key="frame" x="0.0" y="84" width="375" height="148"/>
+                                <rect key="frame" x="0.0" y="84" width="320" height="148"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="3eg-T1-rOZ">
                                         <rect key="frame" x="20" y="20" width="60" height="60"/>
@@ -540,13 +538,13 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hf-Ik-d4C">
-                                        <rect key="frame" x="20" y="88" width="345" height="21"/>
+                                        <rect key="frame" x="20" y="88" width="290" height="21"/>
                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="emaillabel@gmail.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZhV-6S-lmy">
-                                        <rect key="frame" x="20" y="114" width="345" height="14"/>
+                                        <rect key="frame" x="20" y="114" width="290" height="14"/>
                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
                                         <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -622,16 +620,51 @@
             </objects>
             <point key="canvasLocation" x="-2121" y="-911"/>
         </scene>
+        <!--Pick Crop Grab View Controller-->
+        <scene sceneID="iXg-uk-qDS">
+            <objects>
+                <viewController id="6rj-Tk-W6O" customClass="PickCropGrabViewController" customModule="MVCHacks" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BNt-1K-JBg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gvd-T9-yf7"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="1" height="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LjQ-6Z-Wdm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1219" y="-1108"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="YHB-er-Hfq">
             <objects>
                 <viewController id="b6y-QR-A03" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tg1-QA-NUW" customClass="DesignableView" customModule="MVCHacks" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GW9-eB-zXi" customClass="DesignableView" customModule="MVCHacks" customModuleProvider="target">
-                                <rect key="frame" x="67" y="100" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GW9-eB-zXi">
+                                <rect key="frame" x="40" y="74" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="7Sp-ld-jSj"/>
@@ -661,8 +694,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Welcome to this App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynp-P6-PwD" customClass="DesignableLabel" customModule="MVCHacks" customModuleProvider="target">
-                                <rect key="frame" x="108" y="251" width="159" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Welcome to this App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynp-P6-PwD">
+                                <rect key="frame" x="80.5" y="251" width="159" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -673,8 +706,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="swz-NY-00s" customClass="DesignableView" customModule="MVCHacks" customModuleProvider="target">
-                                <rect key="frame" x="67" y="518" width="240" height="128"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="swz-NY-00s">
+                                <rect key="frame" x="40" y="435" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="mdd-ky-VgF"/>
@@ -722,7 +755,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="xdf-bP-CSV">
                         <barButtonItem key="leftBarButtonItem" image="menu18x12" style="plain" id="J7c-lK-g0R">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ycu-Yg-vs9">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ycu-Yg-vs9">
                                 <rect key="frame" x="16" y="0.0" width="74" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -734,6 +767,11 @@
                                     <segue destination="qWb-rM-vTR" kind="presentation" id="mMW-y8-0oG"/>
                                 </connections>
                             </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="bell" id="vxw-iT-0Go">
+                            <connections>
+                                <segue destination="6rj-Tk-W6O" kind="show" id="Edz-Sg-isg"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
@@ -747,7 +785,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="YoP-RQ-Vvz" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hdO-fm-jlT">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -764,11 +802,11 @@
             <objects>
                 <viewController title="Flip Animation" id="RNC-3a-4I1" customClass="FlipAnimationViewController" customModule="MVCHacks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uVs-2l-yY6">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="delivery" translatesAutoresizingMaskIntoConstraints="NO" id="K2Y-E3-SiS">
-                                <rect key="frame" x="162" y="316" width="50" height="50"/>
+                                <rect key="frame" x="135" y="266.5" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="TaP-Pb-k7S"/>
                                     <constraint firstAttribute="width" secondItem="K2Y-E3-SiS" secondAttribute="height" multiplier="1:1" id="uBw-NO-H0g"/>
@@ -805,7 +843,7 @@
             <objects>
                 <viewController id="hWg-vf-8EZ" customClass="VerticalScrollAnimationViewController" customModule="MVCHacks" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="52X-5Z-EZo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Qaw-Bw-7Tg"/>
@@ -818,19 +856,20 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Events" width="49" height="54"/>
-        <image name="QuickCard" width="708" height="1198"/>
-        <image name="avatar" width="1500" height="1500"/>
+        <image name="Events" width="16.333333969116211" height="18"/>
+        <image name="QuickCard" width="354" height="599"/>
+        <image name="avatar" width="360" height="360"/>
+        <image name="bell" width="21" height="23"/>
         <image name="camera" width="128" height="128"/>
-        <image name="clock" width="88" height="88"/>
+        <image name="clock" width="22" height="22"/>
         <image name="clock1" width="22" height="22"/>
         <image name="credit-card" width="24" height="18"/>
         <image name="database" width="30" height="30"/>
         <image name="delivery" width="30" height="30"/>
         <image name="grid18" width="20" height="20"/>
         <image name="menu18x12" width="20" height="14"/>
-        <image name="settings" width="70" height="70"/>
-        <image name="user (1)" width="49" height="54"/>
+        <image name="settings" width="17.5" height="17.5"/>
+        <image name="user (1)" width="16.333333969116211" height="18"/>
         <image name="user_male" width="30" height="30"/>
     </resources>
 </document>
